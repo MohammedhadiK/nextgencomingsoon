@@ -19,12 +19,8 @@
             font-weight: 300;
             margin-bottom: 25px;
         }
-        img {
-            width: 25%; /* Image width */
-            border: 0; /* For IE */
-            /* Aspect ratio of image, gives initial dimension to prevent text moving down once image is loaded */
-            /* When changing logo, change this also */
-            aspect-ratio: 125 / 50;
+        h1 {
+            font-size: 2em;
         }
         #main {
             vertical-align: middle;
@@ -37,12 +33,11 @@
             border-radius: 10px; /* Roundness */
             background-color: #a8a8a8; /* Background colour */
             padding: 7px 5px;
-            /* border: 5px solid #a8a8a8; Border */
         }
         #fill {
             padding: 2px 0;
             background-color: #00b98b; /* Fill colour */
-            width: 35%; /* Bar percentage, change text below also */
+            width: 75%; /* Bar percentage */
             border-radius: 25px; /* Roundness */
             animation: proanimate 2s;
         }
@@ -63,9 +58,6 @@
         }
 
         @media screen and (max-width:600px) {
-            img {
-                width: 60%;
-            }
             h1 {
                 font-size: 1.3em;
             }
@@ -78,15 +70,22 @@
             }
         }
     </style>
-    <title>Coming Soon</title>
+    <title>Next Gen Conclave</title>
 </head>
 <body>
     <div id="main">
-        <img src="logo.png" alt="Logo Image">
-        <h1>Company Name</h1>
-        <h2>Our website is currently under construction. </h2>
-        <div id="progress"><div id="fill"><div id="barpercent"><h3>35%</h3></div></div></div>
+        <h1>Next Gen Conclave</h1>
+        <h2>Exciting things are coming soon! Stay tuned for an incredible experience.</h2>
+        <div id="progress">
+            <div id="fill">
+                <div id="barpercent">
+                    <h3>75%</h3>
+                </div>
+            </div>
+        </div>
     </div>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </body>
 </html>
+
+
